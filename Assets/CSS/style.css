@@ -3,18 +3,29 @@
 }
 
 body {
-
+    font-size: 20px;
 }
 
 header {
+    height: 100px;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
     padding: 0px;
     margin: 0px;
+    text-align: right;
+    font-family: Georgia, Times, 'Times New Roman', serif
 }
 
 aside {
-
+    float: left;
+    width: 16.66%;
+    background-color: #4aaaa5;
+    color: #fff;
+    border: 1px solid #cccccc;
+    margin-left: 16%;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
 }
 
 section {
@@ -26,5 +37,5 @@ aside {
 }
 
 footer {
-    
+
 }
