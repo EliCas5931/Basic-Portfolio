@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 80px;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
     padding: 0px;
@@ -16,16 +16,25 @@ header {
     font-family: Georgia, Times, 'Times New Roman', serif
 }
 
+#tabs {
+    float: left;
+    height: 80px;
+    width: 16.6%;
+    margin-left: 16.6%;
+    text-align: center;
+}
+
 aside {
     float: left;
+    height: 80px;
     width: 16.66%;
     background-color: #4aaaa5;
     color: #fff;
     border: 1px solid #cccccc;
     margin-left: 16%;
-    padding: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 20px;
 }
 
 section {
