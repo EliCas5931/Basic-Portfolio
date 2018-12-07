@@ -66,26 +66,32 @@ section {
     color: #777777;
 }
 
-#about{
-    position: fixed;
+#topLeftWord {
     left: 220px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #4aaaa5;
-    border-bottom: 3px solid #cccccc;
     padding: 20px;
 }
 
-img {
-    position: relative;
-    left: 15px;
+hr {
+    left: 240px;
+    top: 440px;
+    background-color: #cccccc;
     top: 120px;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
+    width: 67%;
+    height: 5px;
+    border: 0;
+}
+
+#picture {
+    float: left;
+    height: 230px;
+    width: 220px;
+    padding: 20px 10px 10px 30px;
 }
 
 #textRight {
-    position: fixed;
+   
     top: 120px;
     font-size: 16px;
     color: #777777;
@@ -96,7 +102,7 @@ img {
 }
 
 #textCenter {
-    position: fixed;
+   
     bottom: 200px;
     font-size: 16px;
     color: #777777;
@@ -107,9 +113,8 @@ img {
 }
 
 
-
 footer {
-    position: fixed;
+   position: fixed;
     bottom: 0;
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
