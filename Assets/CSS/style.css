@@ -66,18 +66,47 @@ section {
     color: #777777;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-}
-
 #about{
+    position: fixed;
+    left: 220px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #4aaaa5;
     border-bottom: 3px solid #cccccc;
     padding: 20px;
 }
+
+img {
+    position: relative;
+    left: 15px;
+    top: 120px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+#textRight {
+    position: fixed;
+    top: 120px;
+    font-size: 16px;
+    color: #777777;
+    height: 200px;
+    width: 1040px;
+    padding: 120px 5px 20px 240px;
+    letter-spacing: 2px;
+}
+
+#textCenter {
+    position: fixed;
+    bottom: 200px;
+    font-size: 16px;
+    color: #777777;
+    height: 200px;
+    width: 1040px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+
 
 footer {
     position: fixed;
